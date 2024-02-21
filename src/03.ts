@@ -44,7 +44,7 @@ const user = createResult(
   'User not found!',
 );
 
-// Golang like error handling
+// Golang like error handling (no try/catch required)
 if (user.type === 'Ok') {
   console.log(user.value.name);
 }
